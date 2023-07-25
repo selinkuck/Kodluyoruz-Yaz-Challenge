@@ -1,3 +1,4 @@
+#easy challenge
 def is_prime(number):
     if number <= 1:
         return False
@@ -21,6 +22,18 @@ def main():
             print(f"{num} bir asal sayı değildir.")
     except ValueError:
         print("Geçerli bir tam sayı girmediniz!")
+
+#medium challenge
+if __name__ == "__main__":
+    main()
+
+def to_upper_case(text):
+    return text.upper()
+
+def main():
+    metin = input("Metni girin: ")
+    buyuk_metin = to_upper_case(metin)
+    print("Büyük harflerle yazılmış hali:", buyuk_metin)
 
 if __name__ == "__main__":
     main()
